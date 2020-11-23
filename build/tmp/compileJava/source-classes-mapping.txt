@@ -1,13 +1,18 @@
+com/jojldu/book/springboot/config/JpaConfig.java
+ com.jojldu.book.springboot.config.JpaConfig
 com/jojldu/book/springboot/service/posts/PostsService.java
  com.jojldu.book.springboot.service.posts.PostsService
 com/jojldu/book/springboot/web/IndexController.java
  com.jojldu.book.springboot.web.IndexController
+com/jojldu/book/springboot/domain/user/User.java
+ com.jojldu.book.springboot.domain.user.User
+ com.jojldu.book.springboot.domain.user.User$UserBuilder
 com/jojldu/book/springboot/domain/BaseTimeEntity.java
  com.jojldu.book.springboot.domain.BaseTimeEntity
 com/jojldu/book/springboot/web/dto/HelloResponseDto.java
  com.jojldu.book.springboot.web.dto.HelloResponseDto
-com/jojldu/book/springboot/web/HelloController.java
- com.jojldu.book.springboot.web.HelloController
+com/jojldu/book/springboot/domain/user/Role.java
+ com.jojldu.book.springboot.domain.user.Role
 com/jojldu/book/springboot/web/PostsApiController.java
  com.jojldu.book.springboot.web.PostsApiController
 com/jojldu/book/springboot/Application.java
@@ -15,8 +20,6 @@ com/jojldu/book/springboot/Application.java
 com/jojldu/book/springboot/domain/posts/Posts.java
  com.jojldu.book.springboot.domain.posts.Posts
  com.jojldu.book.springboot.domain.posts.Posts$PostsBuilder
-com/jojldu/book/springboot/web/dto/PostsResponseDto.java
- com.jojldu.book.springboot.web.dto.PostsResponseDto
 com/jojldu/book/springboot/web/dto/PostSaveRequestDto.java
  com.jojldu.book.springboot.web.dto.PostSaveRequestDto
  com.jojldu.book.springboot.web.dto.PostSaveRequestDto$PostSaveRequestDtoBuilder
@@ -25,3 +28,26 @@ com/jojldu/book/springboot/domain/posts/PostsRepository.java
 com/jojldu/book/springboot/web/dto/PostsUpdateRequestDto.java
  com.jojldu.book.springboot.web.dto.PostsUpdateRequestDto
  com.jojldu.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
+com/jojldu/book/springboot/config/auth/dto/OAuthAttributes.java
+ com.jojldu.book.springboot.config.auth.dto.OAuthAttributes
+ com.jojldu.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/jojldu/book/springboot/config/auth/LoginUser.java
+ com.jojldu.book.springboot.config.auth.LoginUser
+com/jojldu/book/springboot/config/WebConfig.java
+ com.jojldu.book.springboot.config.WebConfig
+com/jojldu/book/springboot/config/auth/CustomOAuth2UserService.java
+ com.jojldu.book.springboot.config.auth.CustomOAuth2UserService
+com/jojldu/book/springboot/config/auth/SecurityConfig.java
+ com.jojldu.book.springboot.config.auth.SecurityConfig
+com/jojldu/book/springboot/config/auth/LoginUserArgumentResolver.java
+ com.jojldu.book.springboot.config.auth.LoginUserArgumentResolver
+com/jojldu/book/springboot/web/HelloController.java
+ com.jojldu.book.springboot.web.HelloController
+com/jojldu/book/springboot/config/auth/dto/SessionUser.java
+ com.jojldu.book.springboot.config.auth.dto.SessionUser
+com/jojldu/book/springboot/domain/user/UserRepository.java
+ com.jojldu.book.springboot.domain.user.UserRepository
+com/jojldu/book/springboot/web/dto/PostsResponseDto.java
+ com.jojldu.book.springboot.web.dto.PostsResponseDto
+com/jojldu/book/springboot/web/dto/PostsListResponseDto.java
+ com.jojldu.book.springboot.web.dto.PostsListResponseDto

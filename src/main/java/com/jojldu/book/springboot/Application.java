@@ -11,7 +11,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
  * Always this class is be at top of project
  *
  */
-@EnableJpaAuditing
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {

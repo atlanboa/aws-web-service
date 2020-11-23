@@ -1,10 +1,10 @@
-com/jojldu/book/springboot/web/IndexControllerTest.java
- com.jojldu.book.springboot.web.IndexControllerTest
+com/jojldu/book/springboot/domain/posts/PostsRepositoryTest.java
+ com.jojldu.book.springboot.domain.posts.PostsRepositoryTest
 com/jojldu/book/springboot/web/PostsApiControllerTest.java
  com.jojldu.book.springboot.web.PostsApiControllerTest
 com/jojldu/book/springboot/web/HelloControllerTest.java
  com.jojldu.book.springboot.web.HelloControllerTest
 com/jojldu/book/springboot/web/dto/HelloResponseDtoTest.java
  com.jojldu.book.springboot.web.dto.HelloResponseDtoTest
-com/jojldu/book/springboot/domain/posts/PostsRepositoryTest.java
- com.jojldu.book.springboot.domain.posts.PostsRepositoryTest
+com/jojldu/book/springboot/web/IndexControllerTest.java
+ com.jojldu.book.springboot.web.IndexControllerTest
