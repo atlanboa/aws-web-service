@@ -25,7 +25,6 @@ JAR_NAME=$(ls -tr $REPOSITORY/ | tail -n 1)
 
 echo "> JAR Name: $JAR_NAME"
 echo "> $JAR_NAME 실행권한 추가"
-cd $REPOSITORY
 chmod +x $JAR_NAME
 echo "> $JAR_NAME 실행"
 
