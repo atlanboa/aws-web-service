@@ -22,7 +22,7 @@ deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
-    bucket: springboot2-webservice-build
+    bucket: mywebservice-build
     region: ap-northeast-2
     skip_cleanup: true
     acl: private
